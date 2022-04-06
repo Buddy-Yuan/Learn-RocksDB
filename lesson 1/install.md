@@ -1,6 +1,6 @@
 ## 前言
 
-最近看了一篇文章挺有意思的，叫**《RocksDB Is Eating the Database World》**。如下图，`RocksDB` 正在吞噬着数据库世界。
+最近看了一篇文章挺有意思的，叫《RocksDB Is Eating the Database World》。如下图，`RocksDB` 正在吞噬着数据库世界。
 
 ![](https://pic.imgdb.cn/item/62276e435baa1a80ab8c6374.png)
 
