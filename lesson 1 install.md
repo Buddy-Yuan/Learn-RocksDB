@@ -2,7 +2,7 @@
 
 最近看了一篇文章挺有意思的，叫《RocksDB Is Eating the Database World》。如下图，`RocksDB` 正在吞噬着数据库世界。
 
-![](https://pic.imgdb.cn/item/62276e435baa1a80ab8c6374.png)
+![](https://mmbiz.qpic.cn/mmbiz_png/p1sSzMia6hvtKOg2KBCfH8BXbLE1u6C6W8jO5iatdoPQCJVY62IJ8BdQD9xBEwMHRpu3lVBMdHz9XkYj83HcaAug/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1![image](https://user-images.githubusercontent.com/23466348/180022933-bcc2db7c-b3bd-4551-b80a-c7513f0cd560.png))
 
 Why ？
 
