@@ -13,18 +13,15 @@ Why ？
 - `RocksDB`出身名门，且在负载较高的`FaceBook`环境下稳定运行，足以说明它是可以应付大规模应用，可靠性强。
 - 性能出色。`RocksDB`在密集型的基准测试中表现非常亮眼，[MyRocks](http://myrocks.io/)项目是 MySQL 的一个分支，它用 `RocksDB` 作为 MySQL 的存储引擎来代替 InnoDB，Mark Callaghan 进行了广泛而严格的测试。
 
-![]([https://pic.imgdb.cn/item/62276e715baa1a80ab8c7bd6.png](https://mmbiz.qpic.cn/mmbiz_png/p1sSzMia6hvtKOg2KBCfH8BXbLE1u6C6WibyTe29aNVvkt9qb12MQibiaYUfyoUC9pMbe8DPOHrk6dWh![image](https://user-images.githubusercontent.com/23466348/180023069-d55ddfcc-7933-4b61-bceb-a3fe30d4d08d.png)
-sxiauDHx3Nw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1))
+![]([https://pic.imgdb.cn/item/62276e715baa1a80ab8c7bd6.png](https://mmbiz.qpic.cn/mmbiz_png/p1sSzMia6hvtKOg2KBCfH8BXbLE1u6C6WibyTe29aNVvkt9qb12MQibiaYUfyoUC9pMbe8DPOHrk6dWh![image](https://user-images.githubusercontent.com/23466348/180023069-d55ddfcc-7933-4b61-bceb-a3fe30d4d08d.png))
 
-![]([https://pic.imgdb.cn/item/62276e835baa1a80ab8c8496.png](https://mmbiz.qpic.cn/mmbiz_png/p1sSzMia6hvtKOg2KBCfH8BXbLE1u6C6WtJHqSwktWRMk2AcKbryINjwnwODeV2Y0ZbF77A45Ammt![image](https://user-images.githubusercontent.com/23466348/180023095-01fa6a81-9810-4962-8cae-eb1a649aa9a2.png)
-ZCFia5UUmoA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1))
+![]([https://pic.imgdb.cn/item/62276e835baa1a80ab8c8496.png](https://mmbiz.qpic.cn/mmbiz_png/p1sSzMia6hvtKOg2KBCfH8BXbLE1u6C6WtJHqSwktWRMk2AcKbryINjwnwODeV2Y0ZbF77A45Ammt![image](https://user-images.githubusercontent.com/23466348/180023095-01fa6a81-9810-4962-8cae-eb1a649aa9a2.png))
 
 可以看到在写入密集型基准测试中，因为有`LSM Tree`的能力加持，可以完胜innodb。但在读上面，因为写放大的问题，使得它在读取密集型基准测试要落后于innodb。但是两者在读的差距并没有写那么大。
 
 从WiKi上看，当前`Rocksdb`主要使用是在`替代后端`和`嵌入式应用`。
 
-![]([https://pic.imgdb.cn/item/62276e905baa1a80ab8c8961.png](https://mmbiz.qpic.cn/mmbiz_png/p1sSzMia6hvtKOg2KBCfH8BXbLE1u6C6W9VViaGlhcozJD5hIK6NKgSHmDgAomlgPsDsB1TP4OPTcW![image](https://user-images.githubusercontent.com/23466348/180023135-80dd3dfe-03c9-4162-bdd3-75d2bf450b5f.png)
-frEUknicVww/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1))
+![]([https://pic.imgdb.cn/item/62276e905baa1a80ab8c8961.png](https://mmbiz.qpic.cn/mmbiz_png/p1sSzMia6hvtKOg2KBCfH8BXbLE1u6C6W9VViaGlhcozJD5hIK6NKgSHmDgAomlgPsDsB1TP4OPTcW![image](https://user-images.githubusercontent.com/23466348/180023135-80dd3dfe-03c9-4162-bdd3-75d2bf450b5f.png))
 
 ## RocksDB 安装
 
