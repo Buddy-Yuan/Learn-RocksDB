@@ -15,13 +15,13 @@ Why ？
 
 ![](https://user-images.githubusercontent.com/23466348/180023381-80a15216-2280-4c3f-af03-f026e9f8b6e3.png)
 
-![]([https://pic.imgdb.cn/item/62276e835baa1a80ab8c8496.png](https://mmbiz.qpic.cn/mmbiz_png/p1sSzMia6hvtKOg2KBCfH8BXbLE1u6C6WtJHqSwktWRMk2AcKbryINjwnwODeV2Y0ZbF77A45Ammt![image](https://user-images.githubusercontent.com/23466348/180023095-01fa6a81-9810-4962-8cae-eb1a649aa9a2.png))
+![](https://user-images.githubusercontent.com/23466348/180023095-01fa6a81-9810-4962-8cae-eb1a649aa9a2.png)
 
 可以看到在写入密集型基准测试中，因为有`LSM Tree`的能力加持，可以完胜innodb。但在读上面，因为写放大的问题，使得它在读取密集型基准测试要落后于innodb。但是两者在读的差距并没有写那么大。
 
 从WiKi上看，当前`Rocksdb`主要使用是在`替代后端`和`嵌入式应用`。
 
-![]([https://pic.imgdb.cn/item/62276e905baa1a80ab8c8961.png](https://mmbiz.qpic.cn/mmbiz_png/p1sSzMia6hvtKOg2KBCfH8BXbLE1u6C6W9VViaGlhcozJD5hIK6NKgSHmDgAomlgPsDsB1TP4OPTcW![image](https://user-images.githubusercontent.com/23466348/180023135-80dd3dfe-03c9-4162-bdd3-75d2bf450b5f.png))
+![](https://user-images.githubusercontent.com/23466348/180023135-80dd3dfe-03c9-4162-bdd3-75d2bf450b5f.png)
 
 ## RocksDB 安装
 
