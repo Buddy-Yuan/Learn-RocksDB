@@ -13,7 +13,8 @@ Why ？
 - `RocksDB`出身名门，且在负载较高的`FaceBook`环境下稳定运行，足以说明它是可以应付大规模应用，可靠性强。
 - 性能出色。`RocksDB`在密集型的基准测试中表现非常亮眼，[MyRocks](http://myrocks.io/)项目是 MySQL 的一个分支，它用 `RocksDB` 作为 MySQL 的存储引擎来代替 InnoDB，Mark Callaghan 进行了广泛而严格的测试。
 
-![]([https://pic.imgdb.cn/item/62276e715baa1a80ab8c7bd6.png](https://mmbiz.qpic.cn/mmbiz_png/p1sSzMia6hvtKOg2KBCfH8BXbLE1u6C6WibyTe29aNVvkt9qb12MQibiaYUfyoUC9pMbe8DPOHrk6dWh![image](https://user-images.githubusercontent.com/23466348/180023069-d55ddfcc-7933-4b61-bceb-a3fe30d4d08d.png))
+![](https://mmbiz.qpic.cn/mmbiz_png/p1sSzMia6hvtKOg2KBCfH8BXbLE1u6C6WibyTe29aNVvkt9qb12MQibiaYUfyoUC9pMbe8DPOHrk6dWhsxiauDHx3Nw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1![image](https://user-images.githubusercontent.com/23466348/180023381-80a15216-2280-4c3f-af03-f026e9f8b6e3.png)
+)
 
 ![]([https://pic.imgdb.cn/item/62276e835baa1a80ab8c8496.png](https://mmbiz.qpic.cn/mmbiz_png/p1sSzMia6hvtKOg2KBCfH8BXbLE1u6C6WtJHqSwktWRMk2AcKbryINjwnwODeV2Y0ZbF77A45Ammt![image](https://user-images.githubusercontent.com/23466348/180023095-01fa6a81-9810-4962-8cae-eb1a649aa9a2.png))
 
